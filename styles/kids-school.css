@@ -8,3 +8,93 @@
     font-style: normal;
 }
 
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    color: white;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.btn-primary-2 {
+    background-color: #000000;
+    color: white;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+
+}
+
+/* header and nav bar style */
+header {
+    margin: 0 188px;
+}
+.logo{
+    gap: 15px;
+}
+.logo-txt {
+    font-weight: 700;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* menu item color */
+.tomato {
+    color: tomato
+}
+
+.green {
+    color: green
+}
+
+.blue {
+    color: blue;
+}
+
+.blue-violate {
+    color: blueviolet
+}
+
+/* banner style */
+.banner {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1480px;
+    margin: 0 auto;
+}
+.empowering{
+    color:rgb(254, 163, 1)
+}
+.twrd-vsn{
+    color: rgb(1, 172, 253)
+}
+
+
+@media screen and (max-width: 576px){
+    .banner{
+        flex-direction: column;
+    }
+}
