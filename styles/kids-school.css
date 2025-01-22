@@ -84,6 +84,11 @@ header {
     text-decoration: none;
     font-weight: 500;
 }
+.border{
+    border-bottom: 2px solid tomato;
+    width: auto;
+
+}
 
 /* menu item color */
 .tomato {
@@ -124,8 +129,9 @@ header {
 }
 
 /* main */
-.standard-container {
-
+.title-text{
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .standard-title {
@@ -203,7 +209,6 @@ header {
 .image-container {
     justify-content: center;
     align-items: center;
-    
 }
 
 .four-image {
@@ -248,8 +253,7 @@ header {
 .footer-section{
     background: rgb(29, 29, 29);
     justify-content: space-between;
-    
-    padding: 141px;
+    padding: 188px;
     color: white;
 }
 .footer-column .logo-section img{
@@ -263,4 +267,59 @@ header {
      align-items: center;
      gap: 20PX;
 }
+.about-section{
+    width: 200px;
+    justify-content: center;
+}
 
+@media (max-width:576px) {
+    .header{
+        margin: 20px;
+    }
+    .logo-txt{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .btn-hide{
+        display: none;
+    }
+    .banner-title{
+        text-align: center;
+    }
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .nurturing-text{
+        text-align: center;
+    }
+    .mobile-btn{
+        width: 180px;
+        margin:0px 150px;
+    }
+    .curriculum-content{
+        display:flex;
+        flex-direction: column;
+    }
+    
+
+  }
+
+
+
+
+  @media (min-width:576px) {
+    .menu-hide{
+        display: none;
+    }
+    .border{
+        display: none;
+    }
+    
+    }
