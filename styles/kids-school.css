@@ -278,7 +278,6 @@ header {
 
 .image-grid img {
     border-radius: 16px;
-
 }
 
 .image-single img {
@@ -381,10 +380,44 @@ header {
     .mobile-footer-nav-bar {
         color: #eca95b
     }
-
-
+    .image-grid {
+        position: relative;
+        width: 250.69px;
+        height: 320.61px;
+    }
+    .image-grid img {
+        width:250px;
+    }
+}
+.image-grid .btn-dec {
+    position: absolute;
+    border-radius: 40px;
+    top: 130px;
+    left: 20px;
+    background-color:green;
 }
 
+.image-grid .btn-oct {
+    position: absolute;
+    border-radius: 40px;
+    top: 130px;
+    left: 30px;
+    background-color: blueviolet;
+}
+.image-grid .btn-jan {
+    position: absolute;
+    border-radius: 40px;
+    top: 130px;
+    left: 20px;
+    background-color:blue;
+}
+.image-grid .btn-feb {
+    position: absolute;
+    border-radius: 40px;
+    top: 130px;
+    left: 30px;
+    background-color:red;
+}
 
 
 
